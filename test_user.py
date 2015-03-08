@@ -128,7 +128,7 @@ class UserTests(unittest.TestCase):
 
 
     def test_500_error(self):
-        bad_user = User(name='Jeremy', email='jeremy@gmail.com', password='django')
+        bad_user = User(name='Jeremy', email='jeremy@gmail.com', password=bcrypt.generate_password_hash('django'))
         db.session.add(bad_user)
         db.session.commit()
         response = self.manager.login('Jeremy', 'django')
