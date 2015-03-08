@@ -30,7 +30,7 @@ def heroku():
     local("git push heroku master")
 
 def heroku_test():
-    local("heroku run python test_tasks.py -v && heroku run python test_users.py -v")
+    local("heroku run python test_tasks.py -v && heroku run python test_user.py -v")
 
 def rollback():
     local("heroku rollback")
