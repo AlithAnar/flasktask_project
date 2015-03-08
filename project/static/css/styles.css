@@ -1,0 +1,23 @@
+body {
+    background: #ffffff;
+    padding: 60px 0px;
+    color: #5e5e5e;
+}
+
+.footer {
+    background: #262626;
+    padding-top: 30px;
+}
+
+.error {
+    color: red;
+    font-size: .8em;
+}
+
+.flash {
+    background: yellowgreen;
+}
+
+.container {
+    background: silver;
+}
