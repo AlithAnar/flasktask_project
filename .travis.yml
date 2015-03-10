@@ -12,4 +12,5 @@ deploy:
     secure: OpAa3su0i4BK/p2Rsb+yJ/6tYoEfGs6pXthPByCoemfksPUzHYC4Hfac+tWWyloZzPqpLJeBPEHIQcFNCgVnRnxmyeb9/psQOgrF6+YXHbMlQq9wbyBrbzhd8wftJXbsesHEJLwzLUJPqRUesCZUQwQbPIIKMKuUlfUppvn0MB8=
   app: safe-depths-8440
   on:
+    branch: master
     repo: AlithAnar/flasktask_project
