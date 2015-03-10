@@ -8,3 +8,5 @@
 404 error at 08-03-2015 20:43:52: http://localhost/tasks/
 404 error at 08-03-2015 20:44:58: http://localhost/tasks/
 404 error at 08-03-2015 20:47:32: http://localhost/tasks/
+404 error at 08-03-2015 21:20:10: http://localhost/tasks/
+404 error at 08-03-2015 21:20:15: http://localhost/not-exist
